@@ -7,7 +7,14 @@ JOB_DATA = [
     {"job_title": "Backend Developer", "skills": "Node.js Express MongoDB SQL API authentication"},
     {"job_title": "Data Scientist", "skills": "Python Machine Learning Pandas NumPy Statistics Deep Learning"},
     {"job_title": "AI Engineer", "skills": "Python NLP TensorFlow PyTorch Machine Learning Deep Learning"},
-    {"job_title": "DevOps Engineer", "skills": "Docker Kubernetes CI/CD AWS Azure Jenkins Terraform"}
+    {"job_title": "DevOps Engineer", "skills": "Docker Kubernetes CI/CD AWS Azure Jenkins Terraform"},
+    {"job_title": "Mobile Developer", "skills": "Java Kotlin Swift Flutter React Native Android iOS" },
+    {"job_title": "Cybersecurity Analyst", "skills": "Network Security Penetration Testing Vulnerability Assessment SIEM Incident Response" },
+    {"job_title": "Cloud Architect", "skills": "AWS Azure Google Cloud Cloud Architecture Cloud Security Cloud Migration DevOps" },
+    {"job_title": "Product Manager", "skills": "Product Strategy Roadmap Prioritization User Research Agile Scrum Stakeholder Management" },
+    {"job_title": "UX Designer", "skills": "User Research Wireframing Prototyping Usability Testing Interaction Design Visual Design Figma Sketch Adobe XD" },
+    {"job_title": "QA Engineer", "skills": "Test Automation Selenium JUnit TestNG Performance Testing API Testing Continuous Integration" },
+    {"job_title": "Database Administrator", "skills": "SQL Database Management Performance Tuning Backup Recovery Security MySQL PostgreSQL MongoDB" }
 ]
 
 def preprocess(text: str) -> str:
