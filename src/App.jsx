@@ -11,7 +11,7 @@ export default function App() {
     setLoading(true)
     setError(null)
     try {
-      const res = await fetch('http://localhost:8000/match', {
+      const res = await fetch('https://career-planner.onrender.com/match', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ resume, top_n: 3 })
@@ -36,7 +36,7 @@ export default function App() {
       const form = new FormData()
       form.append('file', f)
       form.append('top_n', '3')
-      const res = await fetch('http://localhost:8000/match-file', {
+      const res = await fetch('https://career-planner.onrender.com/match-file', {
         method: 'POST',
         body: form
       })
