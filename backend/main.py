@@ -7,9 +7,13 @@ from pypdf import PdfReader
 
 app = FastAPI(title="Career Matcher API")
 
+origins = [
+    "https://ai-careers-advisor.netlify.app",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://career-planner.onrender.com"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
